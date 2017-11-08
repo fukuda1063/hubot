@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+export HUBOT_SLACK_TOKEN=xoxb-262183252801-UN56u5PSlDvzLm1QF5CMSGae
+
+
+npm install
+export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
+
+exec node_modules/.bin/hubot --name "Hubot" "$@"

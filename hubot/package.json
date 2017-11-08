@@ -1,0 +1,16 @@
+{
+  "name": "Hubot",
+  "version": "0.0.0",
+  "private": true,
+  "author": "ee57075@meiji.ac.jp",
+  "description": "testbot",
+  "dependencies": {
+    "forever": "0.15.2",
+    "hubot": "^2.19.0",
+    "hubot-help": "^0.2.2",
+    "hubot-slack": "^4.4.0"
+  },
+  "engines": {
+    "node": "6.11.x"
+  }
+}
